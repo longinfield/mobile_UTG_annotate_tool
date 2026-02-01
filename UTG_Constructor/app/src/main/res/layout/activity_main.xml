@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="197dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|clip_vertical|center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Start Accessibility Service"
+        android:textColor="#000" />
+
+    <TextView
+        android:id="@+id/pac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="package path：" />
+
+    <EditText
+        android:id="@+id/packName"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="packName："/>
+
+    <TextView
+        android:id="@+id/clas"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="class name：" />
+
+    <EditText
+        android:id="@+id/className"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/black"
+        android:hint="className："/>
+
+    <TextView
+        android:id="@+id/actActivity"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="the data collection will start from the designated app and activity" />
+
+    <TextView
+        android:id="@+id/rootPath"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="data saving path" />
+
+    <Button
+        android:id="@+id/set"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|clip_vertical|center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Finish set"
+        android:textColor="#000" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center|clip_vertical|center_horizontal|center_vertical"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Start Construction"
+        android:textColor="#000" />
+
+</LinearLayout>
