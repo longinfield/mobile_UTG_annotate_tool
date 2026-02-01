@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+#cy {
+    width: 100%;
+    height: 800px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+.popup {
+    display: none;
+    position: absolute;
+    padding: 0px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    width: 135px; /* 1080/8*/
+    height: 355px;
+}
+
+.popup img {
+    border: 1px solid #aaa;
+    max-width: 100%;
+    height: auto;
+}
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+.popup-button {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+    background: #f7cdf1;
+    cursor: pointer;
+    width: 100%; /* Set desired width */
+    height: 20px; /* Set desired height */
+    border-radius: 10px;
+}
+.rectangle {
+    position: absolute;
+    background-color: #4CAF50;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.edit-popup{
+    display: none;
+    position: absolute;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.edit-popup table {
+    width: 100%;
+}
+.edit-popup table, .edit-popup th, .edit-popup td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    padding: 8px;
+}
+.edit-popup th {
+    background-color: #f2f2f2;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.custom-file-upload:hover {
+    background-color: #45a049;
+}
+
+.custom-file-input {
+    display: none;
+}
